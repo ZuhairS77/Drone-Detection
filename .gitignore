@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets, media, model checkpoints, and generated outputs
+drone_dataset/
+datasets/
+test/
+train_batch/
+test_batch/
+results/
+runs/
+*.mp4
+*.mov
+*.avi
+*.pt
+*.onnx
+*.tfevents.*
